@@ -4,10 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ec8195-eb4a-427e-9785-c42c5c51e140" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/UserService.java" afterDir="false" />
+    <list default="true" id="b5ec8195-eb4a-427e-9785-c42c5c51e140" name="Changes" comment="Committing the user controller functionality">
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/MedicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/messages/UserInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Medication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/ResponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/repository/MedicationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/MedicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -45,12 +59,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/bsringer/Documents/Projects/Spring Boot/Pharmacy-App",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.PharmacyApp.model" />
+      <recent name="com.example.PharmacyApp.service" />
     </key>
   </component>
   <component name="RunManager">
@@ -98,12 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712828635464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Committing the user controller functionality">
+      <option name="closed" value="true" />
+      <created>1712898264834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712898264834</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Committing the user controller functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing the user controller functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -111,12 +135,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/filter/JwtAuthenticationFilter.java</url>
           <line>36</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/filter/JwtAuthenticationFilter.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

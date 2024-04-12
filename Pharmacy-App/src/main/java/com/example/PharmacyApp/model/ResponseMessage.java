@@ -1,0 +1,1 @@
+package com.example.PharmacyApp.model;import lombok.Data;@Datapublic class ResponseMessage {    private String message;    private int statusCode;    private String description;    private String type;}

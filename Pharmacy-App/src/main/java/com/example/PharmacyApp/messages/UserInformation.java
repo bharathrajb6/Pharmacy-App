@@ -1,0 +1,1 @@
+package com.example.PharmacyApp.messages;public class UserInformation {}
