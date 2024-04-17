@@ -1,1 +1,0 @@
-package com.example.PharmacyApp.model;public enum Role {    USER,    ADMIN}

@@ -4,23 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ec8195-eb4a-427e-9785-c42c5c51e140" name="Changes" comment="Committing the user controller functionality">
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/MedicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/messages/UserInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Medication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/ResponseMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/repository/MedicationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/MedicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="b5ec8195-eb4a-427e-9785-c42c5c51e140" name="Changes" comment="Committed the medication functionality">
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/config/CustomLogoutHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/API/MedicationQuantity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/API/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Persistance/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Persistance/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/repository/TokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacy-App/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/MedicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/MedicationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/filter/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Medication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Persistance/Medication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Persistance/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Persistance/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/repository/MedicationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/repository/MedicationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/MedicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/MedicationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/utils/CommonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +40,27 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bharathrajb6&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3cd84fae-3d2f-4b2e-bbad-a4482a875516" />
+        <option name="url" value="https://github.com/bharathrajb6/Pharmacy-App.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -121,21 +145,60 @@
       <option name="project" value="LOCAL" />
       <updated>1712898264834</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Committed the medication functionality">
+      <option name="closed" value="true" />
+      <created>1712932901514</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712932901514</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Committing the user controller functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Committing the user controller functionality" />
+    <MESSAGE value="Committed the medication functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committed the medication functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/filter/JwtAuthenticationFilter.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/MedicationService.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/MedicationService.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/MedicationController.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/MedicationService.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/UserService.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/UserController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/UserController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
