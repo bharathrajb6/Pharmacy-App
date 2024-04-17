@@ -1,0 +1,1 @@
+package com.example.PharmacyApp.model.API;import lombok.Data;@Datapublic class MedicationQuantityWrapper {    private int medicationID;    private String medicationName;    private int quantity;}
