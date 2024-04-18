@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ec8195-eb4a-427e-9785-c42c5c51e140" name="Changes" comment="Committed the admin service functionality">
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/API/MedicationQuantityWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/API/OrderWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Persistance/MedicationQuantity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/repository/MedicationQuantityRepository.java" afterDir="false" />
+    <list default="true" id="b5ec8195-eb4a-427e-9785-c42c5c51e140" name="Changes" comment="Renamed API folder to Wrappers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/MedicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/MedicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/API/MedicationQuantity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/API/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Persistance/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Persistance/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +146,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713350695842</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Committed the get order functionality">
+      <option name="closed" value="true" />
+      <created>1713360666945</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713360666945</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Renamed API folder to Wrappers">
+      <option name="closed" value="true" />
+      <created>1713360790117</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713360790117</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,6 +171,8 @@
     <MESSAGE value="Committed the medication functionality" />
     <MESSAGE value="Committed the logout functionality" />
     <MESSAGE value="Committed the admin service functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Committed the admin service functionality" />
+    <MESSAGE value="Committed the get order functionality" />
+    <MESSAGE value="Renamed API folder to Wrappers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed API folder to Wrappers" />
   </component>
 </project>
