@@ -20,7 +20,7 @@ manage medication details, while the user module enables regular users to access
 3. MySQL Workbench
 4. Postman
 
-### Available API's
+### Available APIs
 
 #### For Admin
 
