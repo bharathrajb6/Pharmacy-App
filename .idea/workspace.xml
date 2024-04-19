@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ec8195-eb4a-427e-9785-c42c5c51e140" name="Changes" comment="Updated the response message and added order apis">
+    <list default="true" id="b5ec8195-eb4a-427e-9785-c42c5c51e140" name="Changes" comment="Updated the user validation">
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/messages/CommonInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/messages/MedicationInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/messages/OrderInformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/filter/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/messages/UserInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/messages/UserInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/AuthenticationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Persistance/MedicationQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Persistance/MedicationQuantity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/MedicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/MedicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/utils/CommonUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/utils/UserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/utils/UserUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713442067200</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated the user validation">
+      <option name="closed" value="true" />
+      <created>1713445927791</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713445927791</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,14 +229,15 @@
     <MESSAGE value="Renamed API folder to Wrappers" />
     <MESSAGE value="Committed the updated README.md file" />
     <MESSAGE value="Updated the response message and added order apis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the response message and added order apis" />
+    <MESSAGE value="Updated the user validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the user validation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/utils/UserUtils.java</url>
-          <line>31</line>
+          <line>36</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
