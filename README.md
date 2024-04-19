@@ -37,6 +37,9 @@ manage medication details, while the user module enables regular users to access
 - localhost:8080/admin/medication/updateMedication
 - localhost:8080/admin/order/new
 - localhost:8080/admin/order/getOrder/{order_id}
+- localhost:8080/admin/order/getOrders
+- localhost:8080/admin/order/getOrdersByUser
+- localhost:8080/admin/order/getOrderByDate
 
 #### For User
 
