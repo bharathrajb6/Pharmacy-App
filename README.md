@@ -1,4 +1,4 @@
-# Pharmacy-App
+# Pharmacy App
 
 ### Introduction
 
