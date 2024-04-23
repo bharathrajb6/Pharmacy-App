@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ec8195-eb4a-427e-9785-c42c5c51e140" name="Changes" comment="Updated the README.md file">
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/AuthenticationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/Persistance/RefreshToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/model/RefreshTokenRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/repository/RefreshTokenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/RefreshTokenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/AuthenticationService.java" afterDir="false" />
-    </list>
+    <list default="true" id="b5ec8195-eb4a-427e-9785-c42c5c51e140" name="Changes" comment="Added refresh token" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -224,8 +216,27 @@
       <option name="project" value="LOCAL" />
       <updated>1713502658028</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added refresh token">
+      <option name="closed" value="true" />
+      <created>1713863405903</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713863405903</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
@@ -240,7 +251,8 @@
     <MESSAGE value="Updated the user validation" />
     <MESSAGE value="Localization of error and warning messages" />
     <MESSAGE value="Updated the README.md file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the README.md file" />
+    <MESSAGE value="Added refresh token" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added refresh token" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -254,6 +266,11 @@
           <url>file://$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/service/AuthenticationService.java</url>
           <line>103</line>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Pharmacy-App/src/main/java/com/example/PharmacyApp/controller/AuthenticationController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
